@@ -1,0 +1,36 @@
+{
+    "name": "Your - ToDo",
+    "options_page": "options.html",
+    "description": "ToDoLIst",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "index11.html",
+        "default_title": "Your - ToDo",
+        "default_icon": { 
+            "16": "icon.png"
+        }
+    },
+   "permissions": [
+    "contextMenus"
+],
+    "commands": {
+        "inject-script": {
+            "suggested_key": "Ctrl+Shift+Y",
+            "description": "Inject a script on the page"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
