@@ -7,4 +7,3 @@ I sorted everything and created a separate repository
 
 <a href="https://alexreshetnik.github.io/Extension_ToDo/lookme.mp4" target="_blank">Demo video</a>
 
-An interesting and simple extension for chrome whose task is to set the main page as a count of the number of years and % how many are left until the birthday
