@@ -7,3 +7,4 @@ I sorted everything and created a separate repository
 
 <a href="https://alexreshetnik.github.io/Extension_ToDo/lookme.mp4" target="_blank">Demo video</a>
 
+A minimalistic task list in Chrome, with data saved in local storage. I especially played with the simple animated removal of tasks.
